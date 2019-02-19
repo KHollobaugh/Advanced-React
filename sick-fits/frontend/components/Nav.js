@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Nav = () => {
+const Nav = () => (
     <div>
         <Link href="/sell">
             <a>Sell!</a>
@@ -9,6 +9,6 @@ const Nav = () => {
             <a>Home!</a>
         </Link>
     </div>
-}
+)
 
 export default Nav;
